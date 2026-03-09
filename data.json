@@ -6,10 +6,10 @@
     "about": "<p>\n    I\u2019m a Computer Science (Data Science) student who enjoys figuring out how systems actually work behind the scenes. I\u2019m especially interested in the intersection of <strong>cybersecurity, data science, and systems</strong>, and most of the things I learn usually start from a simple curiosity that turns into a project.\n  </p>\n\n  <p>\n    Recently I\u2019ve been building a <strong>lightweight network intrusion detection system using Suricata on a Raspberry Pi</strong>, trying to make something that could realistically monitor a home network and send alerts through an MQTT pipeline to a dashboard. What started as a small idea ended up pulling me into networking, packet inspection, routing issues, and a lot of trial-and-error debugging. I enjoy that process a lot\u2014breaking things, understanding why they broke, and then rebuilding them properly.\n  </p>\n\n  <p>\n    Alongside security work, I\u2019m also exploring <strong>data science with Python</strong>, mainly using tools like NumPy and Pandas.I like the idea of using data to understand patterns in systems, especially when it comes to security and monitoring.\n  </p>\n\n  <p>\n    I also spend time practicing <strong>algorithms and problem solving</strong>, mostly through competitive programming style problems. I like the challenge of finding cleaner or more efficient solutions, and it\u2019s something I\u2019m trying to get better at consistently.\n  </p>\n\n  <p>\n    Outside of tech, I enjoy things that involve strategy and storytelling. I used to play a lot of <strong>chess</strong>, and I\u2019m getting back into it as a casual hobby. I\u2019m also a big fan of <strong>fantasy books</strong>, especially the Harry Potter series, and I\u2019m planning to explore more authors like Brandon Sanderson. I find that stories and strategy both influence how I think about building systems\u2014understanding patterns, anticipating outcomes, and thinking a few steps ahead.\n  </p>\n\n  <p>\n    In general, I\u2019m someone who learns best by <strong>building things and experimenting</strong>, even if it means running into a few walls along the way.  Right now I\u2019m focused on improving my skills in <strong>cybersecurity, backend systems, and data-driven problem solving</strong>, while continuing to work on projects that teach me something new every time.\n  </p>"
   },
   "contact": {
-    "email": "hello@example.com",
-    "github": "https://github.com/alexdoe",
-    "linkedin": "https://linkedin.com/in/alexdoe",
-    "twitter": "https://twitter.com/alexdoe"
+    "email": "shrmashivam2005@gmail.com",
+    "github": "https://github.com/legendop4",
+    "linkedin": "https://linkedin.com/in/shivam_sharma_ds",
+    "twitter": "https://twitter.com/Legend__253"
   },
   "codingProfiles": [
     {
@@ -358,4 +358,5 @@
       "description": "Participated and score 5297 rank in first round of meta hackercup"
     }
   ]
+
 }
