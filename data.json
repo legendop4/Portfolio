@@ -1,0 +1,361 @@
+{
+  "profile": {
+    "name": "Shivam Sharma",
+    "title": "Aspiring Security Analyst & Data Analyst",
+    "tagline": "Building intelligent systems for threat detection and data analysis.",
+    "about": "<p>\n    I\u2019m a Computer Science (Data Science) student who enjoys figuring out how systems actually work behind the scenes. I\u2019m especially interested in the intersection of <strong>cybersecurity, data science, and systems</strong>, and most of the things I learn usually start from a simple curiosity that turns into a project.\n  </p>\n\n  <p>\n    Recently I\u2019ve been building a <strong>lightweight network intrusion detection system using Suricata on a Raspberry Pi</strong>, trying to make something that could realistically monitor a home network and send alerts through an MQTT pipeline to a dashboard. What started as a small idea ended up pulling me into networking, packet inspection, routing issues, and a lot of trial-and-error debugging. I enjoy that process a lot\u2014breaking things, understanding why they broke, and then rebuilding them properly.\n  </p>\n\n  <p>\n    Alongside security work, I\u2019m also exploring <strong>data science with Python</strong>, mainly using tools like NumPy and Pandas.I like the idea of using data to understand patterns in systems, especially when it comes to security and monitoring.\n  </p>\n\n  <p>\n    I also spend time practicing <strong>algorithms and problem solving</strong>, mostly through competitive programming style problems. I like the challenge of finding cleaner or more efficient solutions, and it\u2019s something I\u2019m trying to get better at consistently.\n  </p>\n\n  <p>\n    Outside of tech, I enjoy things that involve strategy and storytelling. I used to play a lot of <strong>chess</strong>, and I\u2019m getting back into it as a casual hobby. I\u2019m also a big fan of <strong>fantasy books</strong>, especially the Harry Potter series, and I\u2019m planning to explore more authors like Brandon Sanderson. I find that stories and strategy both influence how I think about building systems\u2014understanding patterns, anticipating outcomes, and thinking a few steps ahead.\n  </p>\n\n  <p>\n    In general, I\u2019m someone who learns best by <strong>building things and experimenting</strong>, even if it means running into a few walls along the way.  Right now I\u2019m focused on improving my skills in <strong>cybersecurity, backend systems, and data-driven problem solving</strong>, while continuing to work on projects that teach me something new every time.\n  </p>"
+  },
+  "contact": {
+    "email": "hello@example.com",
+    "github": "https://github.com/alexdoe",
+    "linkedin": "https://linkedin.com/in/alexdoe",
+    "twitter": "https://twitter.com/alexdoe"
+  },
+  "codingProfiles": [
+    {
+      "id": "cp_ypvuljnz4",
+      "platform": "LeetCode",
+      "rating": "1742",
+      "url": "https://leetcode.com/u/legendop4/",
+      "icon": "data:image/png;base64,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"
+    },
+    {
+      "id": "cp_ek04oammq",
+      "platform": "Codechef",
+      "rating": "1473",
+      "url": "https://www.codechef.com/users/legendshivam",
+      "icon": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAlAMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABgECAwUHBAj/xABBEAABAwMCAwUEBwQJBQAAAAABAAIDBAURBiESMUETUWFxgQcykaEUFRYikrHRUlXB4SQzQkNyk6LS8RcjNFSC/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EAB8RAQEBAAICAwEBAAAAAAAAAAABEQJBITESUWFxA//aAAwDAQACEQMRAD8A7iiIgIiICIsHa8cz4gdmAcXqgylwHVULjg9PErzNjjirXOcMulH3HHpgch+fxVbo8x26pcNiInfkpopRzOq2CfdsZJ4QeZGea9LgB3/FWUbBHSQMHJsbR8lgu8pjo3BvvSEMHqpuTVZ4ndoxrwSAeXismXDuKpG0MY1o5NGFetIt4uh2KuVDyKt90eHegvREQEREBERAREQEREFDyWhvrX0UtPdqdzg5kjWTjOz4ycbjwW/K8F2pxUW2qgIyXxux59Pms8vSxZd39jRsqWn+plY/0zg/IlZLq3jtdUB1hd+S8dS/6XpSR/NzqPiPmG5/ML3Ux+kWyIu/vYBn1as+xkoJBLRU8g5OjafkvLdjxVFDF+1Ln4YVunH8VpgaeceWH0OFfcBm5W/zf+QVvnidtgFVUCqtoxyyNjY97zhrRknuWOna57e0lzxPHu52aO5UqR2ksUXQnid5D+ePmvQVBRvd3K5Wt3y7vKuVBERAREQEREBERAVjx95p9FerXjII8EGotcWbXVUjv7uSWHHhkkfIheuyb2ijBO4hY0+YGFSnYYrhUjG0obIPP3T+QWWgb2UT4ukb3Y8icj5FYkV5bQ3sZq6n5BlQXNHg4Ar01LM1lI7uLx/pVrWdndHvHKaMZ82n9CvRKAXRu/Zd/AhXPGDIOSHZVCo44x5rSMMeHzPkzt7o9P55+CyO3+78Vipfu0zM+87LvU7/AMVma3CCo2CqiICIiAiIgIiICIiAiIg88jMPbIPeYT+E8/4H0WRoHHxDqMFVcOoG6pvt026KYKmMOc1x5t5K7HiVbw/4vimD0J+OVRdurXHYnuTJHj8kLh1280FsbOENb+wAFlVjN8nvKvQEREBERAREQEREBERARYaqphpaeSeomZFFGMve92A0eJKhVdrqe4TvotIW6evnGxqHMIiZ4/8AOFLcWTU6PJWdo0P4OJvFjPDnfHetXpmC8QW1rb/UxVFW5xcTGNmjoM7ZVupKO2GD6wuU0tKKZpzUQTvheG9W8TCCQe7vQ7bYTNMnZ8TePq3O/wAFkUO0zLpK71HHZI2CrpnB5k4C2Y9Mlx3cDyOSVMOSQsMKhbnyUeu+tbFabiaCtrC2duOMNYXBme89Fv2OEjQ5hBa4ZBB2IV1MXqqht8h1pS3aSsstTSVdEcYo5mhpb4Dlnz4gr9O61juFf9VXakkt10B4eyefuvPPDTzzjw+Km+Vypeio05GyqqgiIgIiICIiAiIg0Or9OjUdq+hGqfT8MgkBDcgkcg4dQodQT6h0FAaertsVfamuJM9KMPbnqf5j1XT1TAPRSzVlaTTeqLXqKN31dMe0jaC+GRvC9o78d3iFdrCzuvunqu3xvDJJAHMJ5cTXBwB9QvTS262WmSaempqeldO/Mr2tDeNxO2/mthkJ15O/CB6IsV5gvk11vVNT0rhTtpo44OHDgMZJ4fIbqeFaK46u0/bqg09XdII5geEtGXcJ8cDZYKy6VNPTfSzcKBlpeAW1zpCXgHoG4w49Ac+inieFu1F9W6RvNVdK9lsp6SWjucjJJJ5OHtICBg4J3x5f89FoKcUlFT0wORDE2PPfgY/gtZZ9TWW7SCK33GKaTow5a53ocZW5LmtBJIAA3J6JJEtvqotqPVclLXmzWOkfXXggHgAPZwg9XlNPaTFNWC7Xuf6feHYPav8Adi2xhg9eak0TYHnt4mxkyNB7RoH3h036rKrhqg2CqiKoIiICIiAiZRAREQEREGl1ja5LxpuuooMds9mYwdsuBBA9cLh1Veb7Cx1tqq+tY2P7joHyOBA7vJfRRxheOttVuryDW0NNUOHIyxBxHqVnlx1rjyx84UdNLVVEdPRQulmecMjjbknyXT7rou4D2e0Fui/7tbSSuqHQtIw4uLstHiA71wuhUVuoaBpFDSQU4PPsow3PwXp4W9wUnDFvPXzE4OhkLXhzJYzuDsWEfktxTV+oL8+Ozw11ZVCTDeyMhIAO2XeA8V3qttNtryHVtDTTuH9qSME/FZKOgoqFhZRUsEDTzETA3PnhT4fq3/TVLVSihtlJSNORBC2MHvwML1Ii6OYiIgIiICJlEHAPtzqb97S/gZ+ivh1nqyeQRwXGpleeTI4mucfQBRtrXPcGsHE5xw0d57l2yGO1ez3TDZ5Ye0mPC172NHHPKRnGT0G+O4LjNvbtyydOdVOrtX0paKqvq4C73RLCGZ+LVZDrPVc8gjguVTK88mMia5x9AMqW3D2g2i82Kupaq3O+kOj4YYZgHte47A56EHf0W6ooLXoDS7KipiL6hwaJXNaO0mlI90Z6Df0Vk/U38c9qdV6xpMfSqysgB5GWANz5ZascWs9Vyk9lcql+OfBEHY+DV0bT2rbXrF01rqqHge5hd2UpD2yt648Rsseg7MLDqDUFuYS6IdhLCTz4HcePhgj0TL9mzuOfSaw1bGCZLhVsaNyXQgAf6VYzW+qHuDWXWdxPINjac/JTqf2iwU+oZ7TX27FLHUGAzh/F1xktI5eqrfdOUts1dYrxbomwxz1ginjjbhvEWnDsdM7/ACTPqmzuIT9rdYf+7Wf5A/2rHJrTVURxLc6hhxnD4mjb1auuaku11tjqb6rsklyEvF2nA/h7PGMdOuT8FGY6eo1TqqjlvlldQigp3SGGZ4eJSXAN5dBh2x7kvjsll6aC3V3tDuUQlpJasxH3XyMZGHeXEBla646q1hbKp1LX3Cennbglj2M5dDyU11jrv6gr/q+kpGzzsa10pkcWtaDuAMdcYUQtt3+0PtCt9ZU0zGCR7WGHPG3ZhHUb9Vnas/jwDXOpjyvEvnws/RPt1qXreJPws/RSb2o2ieWst/1VapXRtifxupKYkZ4hjPCO4Lc6KtrYNFONwtwiqWdsf6RBh+N8HcZTaeM3HPzrvUo2N4kB/wALP0VRrrUh5XmT8LP0XSNPtpabQlBXOtbaySKhY8xxwNfJIQOm25WjvF9pa6jhiOlq+jBqoCJp6RrGDEjdicdRkJtPH0if261L++JPws/RBrrUp3F4lP8A8M/RdS1G622WnimZpsV3aScHDS0bHFuxOTtyXPtfXiludLRRxWWttkrHud/SKZsQkbjG2OeDjom0mXprvtzqb97S/gZ+iKOom1v4xkgkMM8UzQCY3teAepByPyXbdV21utdK0z7ZKzj4m1EHGcBx4SC092zj5FcOW5sOqLxYAW26q4YXHLoXtDmE9+Dy9ElZ5cbfTeM9nV6pqCpuFR2MclM3tI6dj+IycO535DYFTnUtA3XOkaaa2Txlzi2eIv2BOCC09x3I8CFzO962vt5pzTVNU2OncMPigZwB47idzjwXjsWo7rYXE22rMcbjl0LmhzHHvweviMK7Il48q6F7PdE3C0XV1zuvZxuZGWRRRv4ic8yT6fMreaauMN01fqCemeHwwx09O1zeTi0yE/Mn4LmV215qC6U7qeSqZBE4YeKdnCXDxPP4YWvsOo7pp/tza5mR9vjtA6MOzjOOfmVZyk9JeNvmpTcNCXq5atrJX04hoJqt0hndI3+rJySADnOFMdVXCAXvT1njeHTurWTub1axoIGfM/kVzmb2h6newtFdHHn+0yBmR8QVoae610F1ZdG1DnVrX8Ylk+9k+OU2dL8bfbuWqJ9SRGn+zdLSVA+92/0g4xy4cfeHio/QXC9UeraZ2qoKWmNxpnU8IgfkcUZ4t9zjPFjzIUM/6ialx/5kf+Q39FqL7qK536SnkuUzXvpgRGWMDMZIJO3XYfBLylScLPafe0LRtddLi262lrJZHtDJoXPDTkbBwztywPRerRmhGWxkdbdQDcGTCSMRv2iAGMdxznf0UYtXtLu9DTNhqoIa7hGA+RxY/wBSOfwXnuPtCvlXUwzQvipmQuD2wxjIcd/ezuefksLnLMTjXerqrTNVRxUtJBMKiNziZXOGCCO7zXusV2m1DpKWunhjhkkjmZwRkkbZGd1yC/aguF/fTvuLonOgBbHwM4QM4z58l67XrC8Wm2tt9FJC2nHFgOiDiOLc7ovx8Oo6bfVQez63PtsLZ6sULHQxSOwHuxkAlR/UFTqu40LI7nZYKWlZUQyPlZOCRh46cXeopbtdX23UNPR0s0DYIIxHGHQgkNAwMlVrtd32vpjTzzQdmXNcQ2EAktcHD5gInxrput9Sy6Zo6eohpGVHbTdk5rnlnD90nuPcuV6u1TJqeSkfLRspvo7XtAbIX8XER4DuVl+1ZdL/AEsVNcTAWRydoOzj4TnBHf4laJGuPHBERGhERAREQEREBERAREQEREBERAREQEREBERB/9k="
+    },
+    {
+      "id": "cp_pukvpkvod",
+      "platform": "Codeforces",
+      "rating": "1183",
+      "url": "https://codeforces.com/profile/ShivamSharma08",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJcAAACUCAMAAACp1UvlAAAAolBMVEX///8hlvP/wQf0QzYAk/S92/r//vr/1HP//Pz1PCz4hX+hzPn/wxT/35v/7cn2OSj5q6f7v7z1MB3a7fyz2PlGpfQIl/vv9/3H4fxgs/eLxf1brvj0PzH3+v7j8v7/9Nv96+ownvX/6a3/0lf/zS3/2Gr/7sL/zDv/+ez/3IP93937y8j819T+8/L4Zlz3Vkr5npn2bmX6trH7lpD7YVX/4pa2zeiWAAACJUlEQVR4nO3ca1OCQBiGYVrwGEp5IA8klIIKqEn1//9aqNNU07uHwdxtxuf+6KBzzbL6xXexLIQQQgghhM6vP7ilGvSNqmpD3/ed35WvDmvGVA8Tx7nh5TiTBzOsxylfdZRNH424JmJWCZuYYI1krBI2MuAaK7jG+lkzqarsaabdpXAbjdzImq/g8vX/iNWU1gsuuOCCCy644IILLrj+wlUPu2ShUVf9eb5wyRZxYs4VLpmgeGXIlSxELMaWJOzirtAVsxibU7BLu+oNGYuxjgFXV85iC2LBLu1aK7jYs36X8Lv42Vq/S7rrDzXq2l0qLLjgggsuuP69q5lm91T5xqRrU2wDr0cV7F5SY65o3wpsTkFrlxtypZ7HUx1lXmHEVa6WiFXCgtSE61W4Woda+41+V7Tj7q0vWK7fVUiXy7a9tn6X/DaWO+xNu6vZluz6U3DBBRdccMEFF1xwwQUXXHDBBRdccMEFF1xwwQUXXHDBBdc1uVTOGZ7hkgz7niLmHiufy1T8vzZWcRGDtbMnBRd1jlXx/+1EgeVS4+5jheWizv1GtnwewMus1VzuahAfb40U1os8Xqs2P2F1pROsS/p0QNVz5elWOm9ynNB5l93FLvnx1c/h57YQFgR3p+sS4YotOawznluQb3v8PebZ2ed1Ycx4NHdNH1c4VfU5D9GL7XHqtdNvF66SDlny+wf1Z1Wfi9HMijuiIoskb0QIIYQQQlfVByY/dNMIIh/1AAAAAElFTkSuQmCC"
+    }
+  ],
+  "skillCategories": [
+    {
+      "id": "sc_17730774133620",
+      "name": "Cybersecurity & Threat Analysis",
+      "skills": [
+        {
+          "id": "sk_177307741336200",
+          "name": "Malware analysis Fundamentals",
+          "tools": [
+            {
+              "name": "PE Header Analysis",
+              "logo": ""
+            }
+          ]
+        },
+        {
+          "id": "sk_177307741336201",
+          "name": "Reverse Engineering Basics",
+          "tools": [
+            {
+              "name": "IDA",
+              "logo": ""
+            }
+          ]
+        },
+        {
+          "id": "sk_177307741336202",
+          "name": "Disecting PE headers ",
+          "tools": [
+            {
+              "name": "wxHexEditor ",
+              "logo": ""
+            }
+          ]
+        },
+        {
+          "id": "sk_177307741336203",
+          "name": "Phishing & Social Engineering",
+          "tools": [
+            {
+              "name": "Social Engineering Kit",
+              "logo": ""
+            }
+          ]
+        },
+        {
+          "id": "sk_177307741336204",
+          "name": "Network Analysis",
+          "tools": [
+            {
+              "name": "WireShark",
+              "logo": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sc_17730774133621",
+      "name": "Data Analytics & Machine Learning",
+      "skills": [
+        {
+          "id": "sk_177307741336210",
+          "name": "Data Analysis ",
+          "tools": [
+            {
+              "name": "Python",
+              "logo": ""
+            },
+            {
+              "name": "Pandas",
+              "logo": ""
+            },
+            {
+              "name": "Numpy",
+              "logo": ""
+            },
+            {
+              "name": "Jupyter Notebook",
+              "logo": ""
+            }
+          ]
+        },
+        {
+          "id": "sk_177307741336211",
+          "name": "Statistical Analysis",
+          "tools": [
+            {
+              "name": "NumPy",
+              "logo": ""
+            },
+            {
+              "name": "Pandas",
+              "logo": ""
+            },
+            {
+              "name": "Python",
+              "logo": ""
+            }
+          ]
+        },
+        {
+          "id": "sk_177307741336212",
+          "name": "Machine Learning",
+          "tools": [
+            {
+              "name": "Scikit-learn",
+              "logo": ""
+            },
+            {
+              "name": "TensorFlow",
+              "logo": ""
+            }
+          ]
+        },
+        {
+          "id": "sk_177307741336213",
+          "name": "Data Visualization",
+          "tools": [
+            {
+              "name": "Matplotlib",
+              "logo": ""
+            },
+            {
+              "name": "Seaborn",
+              "logo": ""
+            },
+            {
+              "name": "Power BI",
+              "logo": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sc_17730774133622",
+      "name": "Core Computer Science Fundamentals",
+      "skills": [
+        {
+          "id": "sk_177307741336220",
+          "name": "Object Oriented Programming",
+          "tools": [
+            {
+              "name": "C++",
+              "logo": ""
+            }
+          ]
+        },
+        {
+          "id": "sk_177307741336221",
+          "name": "Operating System",
+          "tools": [
+            {
+              "name": "Linux",
+              "logo": ""
+            },
+            {
+              "name": "Virtual Machines",
+              "logo": ""
+            }
+          ]
+        },
+        {
+          "id": "sk_177307741336222",
+          "name": "Computer Network ",
+          "tools": [
+            {
+              "name": "Wireshark",
+              "logo": ""
+            }
+          ]
+        },
+        {
+          "id": "sk_177307741336223",
+          "name": "Algorithm & Problem Solving",
+          "tools": [
+            {
+              "name": "C++",
+              "logo": ""
+            },
+            {
+              "name": "Python",
+              "logo": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sc_17730774133623",
+      "name": "Software & Application Development",
+      "skills": [
+        {
+          "id": "sk_177307741336230",
+          "name": "Backend Web Development",
+          "tools": [
+            {
+              "name": "Flask",
+              "logo": ""
+            },
+            {
+              "name": "Python",
+              "logo": ""
+            },
+            {
+              "name": "HTML",
+              "logo": ""
+            },
+            {
+              "name": "CSS",
+              "logo": ""
+            },
+            {
+              "name": "Javascript",
+              "logo": ""
+            }
+          ]
+        },
+        {
+          "id": "sk_177307741336231",
+          "name": "Version Control",
+          "tools": [
+            {
+              "name": "Git",
+              "logo": ""
+            },
+            {
+              "name": "Github",
+              "logo": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "p_8aufp874e",
+      "title": "Raspberry Pi Based Network Intrusion Detection System (NIDS)",
+      "techStack": "Raspberry Pi,Raspberry Pi OS (Linux),Suricata IDS,Python,Nmap,Git,GitHub",
+      "description": "This project implements a lightweight Network Intrusion Detection System (NIDS) using a Raspberry Pi.\nThe system monitors network traffic and detects suspicious activities such as port scanning, abnormal traffic patterns, and potential intrusion attempts.",
+      "githubLink": "https://github.com/legendop4/nids_project",
+      "image": "data:image/jpeg;base64,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"
+    },
+    {
+      "id": "p_ypkjsefev",
+      "title": "Insightlify",
+      "techStack": "Python, Flask, Pandas, NumPy, Matplotlib, Seaborn, Railway, Git, GitHub",
+      "description": "WhatsApp Chat Analyzer is an intuitive and powerful tool that helps you gain meaningful insights from your WhatsApp conversations. Whether it\u2019s a group chat or a one-on-one conversation, this app breaks down your chat history into easy-to-understand statistics and visualizations.",
+      "githubLink": "https://github.com/legendop4/Insightlify",
+      "image": "assets/certificates/1.png"
+    }
+  ],
+  "certifications": [
+    {
+      "id": "c_qt8q3igkr",
+      "title": "CS50x - Introduction to Computer Science",
+      "organization": "Harvard",
+      "image": "assets/certificates/CS50X.png",
+      "description": "Completed CS50x: Introduction to Computer Science, covering core computer science fundamentals including algorithms, data structures, and software development.\n"
+    },
+    {
+      "id": "c_pdkv4wsu3",
+      "title": "CCNA 1 : Introduction to Network",
+      "organization": "Cisco Network Academy",
+      "image": "assets/certificates/CCNA1.png",
+      "description": "Completed CCNA 1: Introduction to Networks, gaining foundational knowledge of networking concepts including TCP/IP, IP addressing, and network protocols."
+    },
+    {
+      "id": "c_6fzejgjyb",
+      "title": "Cyber Security Virtual Internship",
+      "organization": "AICTE",
+      "image": "assets/certificates/AICTE.png",
+      "description": "Completed the AICTE Cybersecurity Virtual Internship, gaining hands-on exposure to cybersecurity fundamentals, network security, and threat detection concepts."
+    },
+    {
+      "id": "c_4ow01dv2z",
+      "title": "Python Essential 1",
+      "organization": "Cisco Network Academy",
+      "image": "assets/certificates/PythonEssential1.png",
+      "description": "Completed Data Analytics Essentials by Cisco Networking Academy, learning core concepts of data analysis including data cleaning, visualization, and interpretation."
+    },
+    {
+      "id": "c_ofxkkvov6",
+      "title": "Data Analytics Essential",
+      "organization": "Cisco Network Academy",
+      "image": "assets/certificates/IntroToDA.png",
+      "description": "Completed Data Analytics Essentials by Cisco Networking Academy, learning core concepts of data analysis including data cleaning, visualization, and interpretation."
+    },
+    {
+      "id": "c_xgoy7kg00",
+      "title": "Introduction to Cyber Security",
+      "organization": "Cisco Network Academy",
+      "image": "assets/certificates/IntroToCyber.png",
+      "description": "Completed Python Essentials 1 by Cisco Networking Academy, gaining a strong foundation in Python programming including variables, control structures, functions, and data types."
+    }
+  ],
+  "hackathons": [
+    {
+      "id": "h_a3h5lg3hm",
+      "name": "Adobe hackathon ",
+      "year": "Aug,2025",
+      "description": "Participated in Adobe Hackathon , gave online assessment and coding quiz"
+    },
+    {
+      "id": "h_5ve3adgaf",
+      "name": "TCS codevita",
+      "year": "Oct,2025",
+      "description": "Participated in TCS codevita"
+    },
+    {
+      "id": "h_syuewy6v0",
+      "name": "ICPC ",
+      "year": "Nov,2025",
+      "description": "participated in International Collegiate Programming Contest"
+    },
+    {
+      "id": "h_m0ee7bbwu",
+      "name": "Meta Hacker-Cup",
+      "year": "Nov,2025",
+      "description": "Participated and score 5297 rank in first round of meta hackercup"
+    }
+  ]
+}
