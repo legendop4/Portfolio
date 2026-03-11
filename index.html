@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Portfolio</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;700&family=Poppins:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome for Cisco Topology Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dark-mode">
+
+    <!-- Global Background Particles -->
+    <canvas id="hero-canvas"></canvas>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-brand" id="nav-brand-name">legendop4.github.io</div>
+        <div class="nav-links">
+            <a href="#hero" class="nav-item">Home</a>
+            <a href="#projects" class="nav-item">Projects</a>
+            <a href="#labs-grid" class="nav-item"
+                onclick="document.getElementById('project-slider-toggle').checked = true; document.getElementById('project-slider-toggle').dispatchEvent(new Event('change'));">Labs</a>
+            <a href="#skills" class="nav-item">Skills Network</a>
+            <a href="#certifications" class="nav-item">Certifications</a>
+            <a href="#contact" class="nav-item">Contact</a>
+            <button id="theme-toggle" aria-label="Toggle Theme">🌙</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1 class="ascii-name" id="ascii-title">Loading...</h1>
+            <h2 class="hero-subtitle" id="hero-subtitle-container">
+                <!-- Dynamically populated dividers -->
+            </h2>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollToSection('projects')">View Projects</button>
+                <a href="assets/resume.pdf" class="btn btn-outline" target="_blank" download>Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating Terminal Launcher -->
+    <button id="terminal-launcher" class="floating-launcher" aria-label="Open Terminal">
+        <i class="fa-solid fa-terminal"></i>
+    </button>
+
+    <!-- Terminal Overlay Container -->
+    <div id="terminal-overlay" class="terminal-overlay hidden">
+        <div class="terminal-container">
+            <div class="terminal-header">
+                <div class="term-dots">
+                    <span class="dot close" id="term-close-btn" title="Close Terminal"></span>
+                    <span class="dot minimize"></span>
+                    <span class="dot maximize"></span>
+                </div>
+                <div class="term-title">Cyber Terminal v1.0</div>
+            </div>
+            <div class="terminal-body" id="terminal-body">
+                <div class="term-line">Welcome to Cyber Terminal v1.0.</div>
+                <div class="term-line">Type <span class="highlight">'help'</span> to see available commands.</div>
+                <div class="term-line loading-text" id="data-loading-status" style="color: #ffbd2e;">[sys] Fetching
+                    portfolio-data.json...</div>
+            </div>
+            <div class="terminal-input-line">
+                <span class="prompt" id="term-prompt">guest@shrma:~$</span>
+                <input type="text" id="terminal-input" autocomplete="off" spellcheck="false" autofocus disabled>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" style="max-width: 800px; margin: 4rem auto 2rem; padding: 0 2rem; position: relative; z-index: 2;">
+        <h2 class="section-title">About Me</h2>
+        <div id="about-content" style="font-size: 1.1rem; line-height: 1.8; color: #ccc;">
+            <!-- Dynamically populated via script.js -->
+        </div>
+    </section>
+
+    <!-- Coding Profiles Section -->
+    <section id="coding-profiles">
+        <h2 class="section-title" style="margin-top: 2rem;">Competitive Programming</h2>
+        <div class="cards-grid" id="coding-profiles-grid">
+            <!-- Dynamically populated via script.js -->
+        </div>
+    </section>
+
+    <!-- Project Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">Projects & Labs</h2>
+
+        <div class="toggle-container">
+            <span class="toggle-label active" id="label-projects">Projects</span>
+            <label class="switch">
+                <input type="checkbox" id="project-slider-toggle">
+                <span class="slider round"></span>
+            </label>
+            <span class="toggle-label" id="label-labs">Hands-On Labs</span>
+        </div>
+
+        <!-- Projects View -->
+        <div class="view-container active" id="view-projects">
+            <div class="cards-grid" id="projects-grid">
+                <!-- Dynamically populated projects -->
+            </div>
+        </div>
+
+        <!-- Labs View -->
+        <div class="view-container" id="view-labs">
+            <div class="labs-platform-label">Platform: TryHackMe, CyberDefenders etc.</div>
+            <div class="cards-grid" id="labs-grid">
+                <!-- Dynamically populated labs -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Network Visualization Section -->
+    <section id="skills" class="skills-section">
+        <h2 class="section-title">Technical Skill Network</h2>
+        <div class="skills-container">
+            <p class="skills-instructions">Topology: Cloud (Hub) &rarr; Routers (Domains) &rarr; Switches (Skills)
+                &rarr; Computers (Tools).<br>Click nodes to expand/collapse the network!</p>
+            <div id="skills-network-wrapper">
+                <canvas id="skills-canvas"></canvas>
+                <div id="skills-tooltip" class="tooltip hidden"></div>
+                <!-- Skills Detail Card Overlay -->
+                <div id="skills-detail-card" class="skills-card hidden">
+                    <div class="skills-card-header">
+                        <span id="sk-card-icon" class="fa-solid fa-server"></span>
+                        <h3 id="sk-card-title">Node Title</h3>
+                        <button id="sk-card-close" title="Close details">&times;</button>
+                    </div>
+                    <div class="skills-card-body">
+                        <p id="sk-card-type" class="sk-type-label">Type</p>
+                        <div id="sk-card-content"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <h2 class="section-title">Certifications</h2>
+        <div class="carousel-container">
+            <button class="carousel-btn left" id="carousel-left" title="Manual Override">&lt;</button>
+            <div class="carousel-track-wrapper">
+                <div class="carousel-track" id="cert-track">
+                    <!-- Certs dynamically loaded -->
+                </div>
+            </div>
+            <button class="carousel-btn right" id="carousel-right" title="Manual Override">&gt;</button>
+        </div>
+    </section>
+
+    <!-- Cert Modal -->
+    <div id="cert-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <img id="modal-img" class="modal-image-placeholder" src="" alt="Certificate Image"
+                    style="display:none; width: 100%; height: auto; max-height: 400px; object-fit: contain; background: transparent; border: none;">
+                <h3 id="modal-title">Certificate Title</h3>
+                <p id="modal-issuer" class="modal-subtitle">Issuer Name</p>
+                <p id="modal-desc">Short description of the certification and skills acquired.</p>
+                <a href="#" id="modal-verify-btn" class="btn btn-primary" target="_blank">Verify Credential</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Let's Connect</h3>
+                <p>Feel free to reach out for collaborations or opportunities.</p>
+                <ul class="contact-links" id="contact-links-list">
+                    <!-- Dynamically populated contact links -->
+                </ul>
+            </div>
+            <form class="contact-form" id="contactForm" action="https://formspree.io/f/mbdzozvk" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Send via Email</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Load Global Data System first -->
+    <script src="script.js"></script>
+</body>
+
+</html>
