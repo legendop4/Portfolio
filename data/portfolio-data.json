@@ -1,0 +1,429 @@
+{
+  "name": "Shivam Sharma",
+  "heroSubtitles": [
+    "Cybersecurity",
+    "Data Analytics",
+    "Threat Detection"
+  ],
+  "about": [
+    "I\u2019m a Computer Science (Data Science) student who enjoys figuring out how systems actually work behind the scenes. I\u2019m especially interested in the intersection of cybersecurity, data science, and systems, and most of the things I learn usually start from a simple curiosity that turns into a project.",
+    "Recently I\u2019ve been building a lightweight network intrusion detection system using Suricata on a Raspberry Pi, trying to make something that could realistically monitor a home network and send alerts through an MQTT pipeline to a dashboard. What started as a small idea ended up pulling me into networking, packet inspection, routing issues, and a lot of trial-and-error debugging. I enjoy that process a lot\u2014breaking things, understanding why they broke, and then rebuilding them properly.",
+    "Alongside security work, I\u2019m also exploring data science with Python, mainly using tools like NumPy and Pandas. I like the idea of using data to understand patterns in systems, especially when it comes to security and monitoring.",
+    "I also spend time practicing algorithms and problem solving, mostly through competitive programming style problems. I like the challenge of finding cleaner or more efficient solutions, and it\u2019s something I\u2019m trying to get better at consistently.",
+    "Outside of tech, I enjoy things that involve strategy and storytelling. I used to play a lot of chess, and I\u2019m getting back into it as a casual hobby. I\u2019m also a big fan of fantasy books, especially the Harry Potter series, and I\u2019m planning to explore more authors like Brandon Sanderson. I find that stories and strategy both influence how I think about building systems\u2014understanding patterns, anticipating outcomes, and thinking a few steps ahead.",
+    "In general, I\u2019m someone who learns best by building things and experimenting, even if it means running into a few walls along the way. Right now I\u2019m focused on improving my skills in cybersecurity, backend systems, and data-driven problem solving, while continuing to work on projects that teach me something new every time."
+  ],
+  "codingProfiles": {
+    "leetcode": {
+      "username": "legendop4",
+      "rating": "1742",
+      "link": "https://leetcode.com/u/legendop4/"
+    },
+    "codeforces": {
+      "username": "ShivamSharma08",
+      "rating": "1183",
+      "link": "https://codeforces.com/profile/ShivamSharma08"
+    },
+    "codechef": {
+      "username": "legendshivam",
+      "rating": "1473",
+      "link": "https://www.codechef.com/users/legendshivam"
+    }
+  },
+  "projects": [
+    {
+      "title": "Raspberry Pi Network Intrusion Detection System",
+      "description": "Lightweight network intrusion detection system deployed on Raspberry Pi using Suricata to detect suspicious network activity and analyze packets.",
+      "techStack": [
+        "Raspberry Pi",
+        "Linux",
+        "Suricata",
+        "Python",
+        "Nmap",
+        "Git",
+        "GitHub"
+      ],
+      "github": "https://github.com/legendop4/nids_project",
+      "demo": null
+    },
+    {
+      "title": "Insightlify \u2013 WhatsApp Chat Analyzer",
+      "description": "Web application that analyzes WhatsApp chat exports and generates insights including activity statistics, user interaction patterns, and visual analytics.",
+      "techStack": [
+        "Python",
+        "Flask",
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Seaborn"
+      ],
+      "github": "https://github.com/legendop4/Insightlify",
+      "demo": null
+    }
+  ],
+  "labs": [
+    {
+      "title": "WebStrike",
+      "category": "Network Forensics",
+      "description": "Analyzed network traffic using Wireshark to investigate web server compromise and detect suspicious communication patterns.",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Oski Malware Analysis",
+      "category": "Threat Intelligence",
+      "description": "Analyzed malware behavior using sandbox reports and extracted configuration artifacts and indicators of compromise.",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Poisoned Credentials",
+      "category": "Network Forensics",
+      "description": "Investigated LLMNR/NBT-NS poisoning attacks by analyzing captured network packets to identify rogue machines.",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Yellow RAT",
+      "category": "Threat Intelligence",
+      "description": "Studied remote access trojan artifacts and analyzed malware indicators using threat intelligence platforms.",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Amadey \u2013 APT-C-36",
+      "category": "Endpoint Forensics",
+      "description": "Reconstructed malware execution chain through memory dump analysis using forensic investigation techniques.",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "OhSINT",
+      "category": "Open Source Intelligence",
+      "description": "Performed OSINT investigation using publicly available information to identify individuals and digital footprints."
+    },
+    {
+      "title": "Basic Malware RE",
+      "category": "Malware Analysis",
+      "description": "Analyzed malware binaries and explored reverse engineering concepts used to understand malicious software behavior."
+    },
+    {
+      "title": "Pentesting Fundamentals",
+      "category": "Offensive Security",
+      "description": "Learned the methodology of penetration testing including reconnaissance, exploitation, and reporting."
+    },
+    {
+      "title": "Nmap Live Host Discovery",
+      "category": "Network Security",
+      "description": "Used Nmap scanning techniques such as ARP, ICMP, and TCP discovery to identify live hosts in a network."
+    },
+    {
+      "title": "Windows Reversing Intro",
+      "category": "Reverse Engineering",
+      "description": "Studied Windows binary structure and explored reverse engineering techniques using analysis tools."
+    },
+    {
+      "title": "Offensive Security Intro",
+      "category": "Offensive Security",
+      "description": "Explored ethical hacking fundamentals including attack methodologies and exploitation workflows."
+    },
+    {
+      "title": "Web Application Security",
+      "category": "Web Security",
+      "description": "Analyzed web applications for common vulnerabilities including authentication flaws and injection attacks."
+    },
+    {
+      "title": "Careers in Cyber",
+      "category": "Cybersecurity Foundations",
+      "description": "Explored different career paths within cybersecurity including SOC analysis, penetration testing, and digital forensics."
+    },
+    {
+      "title": "Dissecting PE Headers",
+      "category": "Malware Analysis",
+      "description": "Examined Portable Executable headers to understand how Windows executables are structured."
+    },
+    {
+      "title": "Defensive Security Intro",
+      "category": "Blue Team",
+      "description": "Learned defensive security concepts including threat intelligence, incident response, and security monitoring."
+    },
+    {
+      "title": "Splunk Basics \u2013 Did You SIEM?",
+      "category": "Security Monitoring",
+      "description": "Explored SIEM concepts and used Splunk to analyze logs and detect suspicious activity."
+    },
+    {
+      "title": "Phishing \u2013 Merry Clickmas",
+      "category": "Social Engineering",
+      "description": "Studied phishing attacks and email-based social engineering techniques used in real-world cyber attacks."
+    },
+    {
+      "title": "Linux CLI \u2013 Shells Bells",
+      "category": "System Administration",
+      "description": "Practiced Linux command line operations used in cybersecurity investigations and system management."
+    },
+    {
+      "title": "AI in Security \u2013 Old sAInt Nick",
+      "category": "AI Security",
+      "description": "Explored how artificial intelligence can be applied to cybersecurity threat detection and analysis."
+    }
+  ],
+  "skills": {
+    "hub": "Technical Skill Network",
+    "routers": [
+      {
+        "id": "r1",
+        "name": "Cybersecurity & Threat Analysis",
+        "description": "Hands-on cybersecurity practices including malware analysis, reconnaissance, penetration testing and threat detection.",
+        "switches": [
+          {
+            "id": "s1",
+            "name": "Reconnaissance",
+            "description": "Information gathering phase used to discover hosts, services, and attack surface before exploitation.",
+            "tools": [
+              "Nmap",
+              "Passive Reconnaissance",
+              "Active Reconnaissance"
+            ]
+          },
+          {
+            "id": "s2",
+            "name": "Brute Force Attacks",
+            "description": "Credential attacks used to crack passwords using automated dictionary and brute-force techniques.",
+            "tools": [
+              "Hydra",
+              "John the Ripper"
+            ]
+          },
+          {
+            "id": "s3",
+            "name": "Web Application Pentesting",
+            "description": "Testing web applications for security flaws such as injection vulnerabilities and misconfigurations.",
+            "tools": [
+              "Burp Suite",
+              "OWASP ZAP",
+              "SQLMap"
+            ]
+          },
+          {
+            "id": "s4",
+            "name": "Offensive Security",
+            "description": "Exploiting vulnerabilities using penetration testing frameworks.",
+            "tools": [
+              "Metasploit"
+            ]
+          },
+          {
+            "id": "s5",
+            "name": "Malware Analysis",
+            "description": "Analyzing malicious executables to understand behavior and identify compromise indicators.",
+            "tools": [
+              "PE Header Analysis",
+              "wxHexEditor"
+            ]
+          },
+          {
+            "id": "s6",
+            "name": "Reverse Engineering",
+            "description": "Disassembling binaries to understand internal logic and discover vulnerabilities.",
+            "tools": [
+              "IDA",
+              "Cutter",
+              "REMnux"
+            ]
+          },
+          {
+            "id": "s7",
+            "name": "Network Traffic Analysis",
+            "description": "Analyzing packet captures to detect suspicious activity or compromised systems.",
+            "tools": [
+              "Wireshark",
+              "Nmap"
+            ]
+          },
+          {
+            "id": "s8",
+            "name": "IDS Systems",
+            "description": "Monitoring networks using intrusion detection system.",
+            "tools": [
+              "Suricata"
+            ]
+          },
+          {
+            "id": "s9",
+            "name": "Windows Active Directory Security",
+            "description": "Understanding domain authentication mechanisms and password attacks.",
+            "tools": [
+              "John the Ripper"
+            ]
+          },
+          {
+            "id": "s10",
+            "name": "SQL Injection",
+            "description": "Exploiting vulnerable database queries to extract sensitive information.",
+            "tools": [
+              "SQLMap"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "r2",
+        "name": "Data Analytics & Machine Learning",
+        "description": "Applying statistical analysis and machine learning techniques to derive insights from structured data.",
+        "switches": [
+          {
+            "id": "s15",
+            "name": "Data Analysis",
+            "tools": [
+              "Python",
+              "Pandas",
+              "NumPy",
+              "Jupyter Notebook"
+            ]
+          },
+          {
+            "id": "s16",
+            "name": "Statistical Analysis",
+            "tools": [
+              "Python",
+              "NumPy",
+              "Pandas"
+            ]
+          },
+          {
+            "id": "s17",
+            "name": "Machine Learning",
+            "tools": [
+              "Scikit-learn",
+              "TensorFlow"
+            ]
+          },
+          {
+            "id": "s18",
+            "name": "Data Visualization",
+            "tools": [
+              "Matplotlib",
+              "Seaborn",
+              "Power BI"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "r3",
+        "name": "Core Computer Science",
+        "description": "Fundamental computer science concepts including algorithms, operating systems, and networking.",
+        "switches": [
+          {
+            "id": "s19",
+            "name": "Object Oriented Programming",
+            "tools": [
+              "C++"
+            ]
+          },
+          {
+            "id": "s20",
+            "name": "Operating Systems",
+            "tools": [
+              "Linux",
+              "Virtual Machines"
+            ]
+          },
+          {
+            "id": "s21",
+            "name": "Computer Networks",
+            "tools": [
+              "TCP/IP",
+              "Wireshark"
+            ]
+          },
+          {
+            "id": "s22",
+            "name": "Algorithms & Problem Solving",
+            "tools": [
+              "C++",
+              "Python"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "r4",
+        "name": "Application Development",
+        "description": "Developing backend systems and web applications using modern programming frameworks.",
+        "switches": [
+          {
+            "id": "s23",
+            "name": "Backend Development",
+            "tools": [
+              "Python",
+              "Flask"
+            ]
+          },
+          {
+            "id": "s24",
+            "name": "Web Technologies",
+            "tools": [
+              "HTML",
+              "CSS",
+              "JavaScript"
+            ]
+          },
+          {
+            "id": "s25",
+            "name": "Version Control",
+            "tools": [
+              "Git",
+              "GitHub"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "certifications": [
+    {
+      "title": "CS50x \u2013 Introduction to Computer Science",
+      "issuer": "Harvard",
+      "description": "Introduction to computer science covering algorithms, data structures, and systems thinking.",
+      "image": "assets/certificates/CS50X.png",
+      "link": "#"
+    },
+    {
+      "title": "CCNA 1 \u2013 Introduction to Networks",
+      "issuer": "Cisco Networking Academy",
+      "description": "Networking fundamentals including TCP/IP, routing concepts, and network protocols.",
+      "image": "assets/certificates/CCNA1.png",
+      "link": "#"
+    },
+    {
+      "title": "Cybersecurity Virtual Internship",
+      "issuer": "AICTE / Palo Alto",
+      "description": "Hands-on cybersecurity training covering network security and threat detection.",
+      "image": "assets/certificates/AICTE.png",
+      "link": "#"
+    },
+    {
+      "title": "Python Essentials 1",
+      "issuer": "Cisco Networking Academy",
+      "description": "Fundamentals of Python programming including control structures and functions.",
+      "image": "assets/certificates/PythonEssential1.png",
+      "link": "#"
+    },
+    {
+      "title": "Data Analytics Essentials",
+      "issuer": "Cisco Networking Academy",
+      "description": "Core concepts of data analysis including cleaning, visualization, and interpretation.",
+      "image": "assets/certificates/IntroToDA.png",
+      "link": "#"
+    },
+    {
+      "title": "Introduction to Cybersecurity",
+      "issuer": "Cisco Networking Academy",
+      "description": "Overview of cybersecurity concepts and threat landscape.",
+      "image": "assets/certificates/IntroToCyber.png",
+      "link": "#"
+    }
+  ],
+  "contact": {
+    "email": "shrmashivam2005@gmail.com",
+    "github": "https://github.com/legendop4",
+    "linkedin": "https://linkedin.com/in/shivam-sharma-ds"
+  }
+}
