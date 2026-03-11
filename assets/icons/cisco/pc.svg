@@ -1,0 +1,15 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Stand base (3d cylinder-ish) -->
+  <ellipse cx="50" cy="85" rx="15" ry="5" fill="#555555" stroke="#222" stroke-width="1"/>
+  <path d="M 35 85 L 35 88 A 15 5 0 0 0 65 88 L 65 85 Z" fill="#333333" stroke="#222" stroke-width="1"/>
+  <!-- Stand neck -->
+  <polygon points="45,85 55,85 52,65 48,65" fill="#666666" stroke="#222" stroke-width="1"/>
+  <!-- Monitor Back (thickness) -->
+  <rect x="22" y="27" width="56" height="38" rx="2" fill="#555555" />
+  <!-- Monitor Case (Front) -->
+  <rect x="18" y="25" width="56" height="38" rx="2" fill="#333333" stroke="#111" stroke-width="2"/>
+  <!-- Screen -->
+  <rect x="22" y="29" width="48" height="26" fill="#87cefa" stroke="#4682b4" stroke-width="1"/>
+  <!-- Screen glare/reflection -->
+  <polygon points="22,29 50,29 35,55 22,55" fill="#ffffff" opacity="0.15" />
+</svg>

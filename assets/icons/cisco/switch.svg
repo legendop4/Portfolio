@@ -1,0 +1,17 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Front face -->
+  <polygon points="10,50 70,50 70,75 10,75" fill="#1b5275" stroke="#10364d" stroke-width="2"/>
+  <!-- Top face -->
+  <polygon points="10,50 30,35 90,35 70,50" fill="#3288c1" stroke="#164666" stroke-width="2"/>
+  <!-- Right face -->
+  <polygon points="70,50 90,35 90,60 70,75" fill="#256c9a" stroke="#10364d" stroke-width="2"/>
+  
+  <g fill="#ffffff" transform="scale(0.7) translate(30, -50)">
+    <!-- Left arrow -->
+    <rect x="33" y="108" width="16" height="4" transform="skewX(-40)"/>
+    <path d="M 48 111 L 58 117 L 55 106 Z" transform="skewX(-40)"/>
+    <!-- Right arrow -->
+    <rect x="58" y="118" width="16" height="4" transform="skewX(-40)"/>
+    <path d="M 58 116 L 48 122 L 54 111 Z" transform="skewX(-40)"/>
+  </g>
+</svg>
