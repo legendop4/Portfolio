@@ -383,42 +383,56 @@
       "issuer": "Harvard",
       "description": "Introduction to computer science covering algorithms, data structures, and systems thinking.",
       "image": "assets/certificates/CS50X.png",
-      "link": "#"
+      "link": "https://certificates.cs50.io/9cf902b0-d33b-4060-b6ad-1878ea3564f3.pdf?size=letter"
     },
     {
       "title": "CCNA 1 \u2013 Introduction to Networks",
       "issuer": "Cisco Networking Academy",
       "description": "Networking fundamentals including TCP/IP, routing concepts, and network protocols.",
       "image": "assets/certificates/CCNA1.png",
-      "link": "#"
+      "link": "https://www.credly.com/badges/7fbbf3f3-7b7e-4896-a4a5-913a1426873a/public_url"
     },
     {
       "title": "Cybersecurity Virtual Internship",
       "issuer": "AICTE / Palo Alto",
       "description": "Hands-on cybersecurity training covering network security and threat detection.",
       "image": "assets/certificates/AICTE.png",
-      "link": "#"
+      "link": "https://drive.google.com/file/d/17e_XozsPIyuvqxHEl0862Yt9qocvJggi/view"
     },
     {
       "title": "Python Essentials 1",
       "issuer": "Cisco Networking Academy",
       "description": "Fundamentals of Python programming including control structures and functions.",
       "image": "assets/certificates/PythonEssential1.png",
-      "link": "#"
+      "link": "https://www.credly.com/badges/2fb83313-861c-4da8-9aac-c598a13734e9"
     },
     {
       "title": "Data Analytics Essentials",
       "issuer": "Cisco Networking Academy",
       "description": "Core concepts of data analysis including cleaning, visualization, and interpretation.",
       "image": "assets/certificates/IntroToDA.png",
-      "link": "#"
+      "link": "https://www.credly.com/badges/2f0ede9f-c874-492b-b4b9-5fa4d1626fb2"
     },
     {
       "title": "Introduction to Cybersecurity",
       "issuer": "Cisco Networking Academy",
       "description": "Overview of cybersecurity concepts and threat landscape.",
       "image": "assets/certificates/IntroToCyber.png",
-      "link": "#"
+      "link": "https://www.credly.com/badges/e9aa5837-37ef-4a3b-a2a4-1f93e0d75c4f/public_url"
+    },
+    {
+      "title": "Cyber Security Foundation",
+      "issuer": "Palo Alto Networks Academy",
+      "description": "Palo Alto Cybersecurity Foundation: An introductory course covering basic cybersecurity concepts, threats, and protection techniques",
+      "image": "assets/certificates/cyberfound.png",
+      "link": "https://drive.google.com/file/d/15Tngp-TrkkGzxxVEBYhQvCEDty0dmB4f/view?usp=drive_link"
+    },
+    {
+      "title": "Network Security Fundamentals",
+      "issuer": "Palo Alto Networks Academy",
+      "description": "course that introduces the core concepts of protecting networks from cyber threats, unauthorized access, and data breaches",
+      "image": "assets/certificates/network.png",
+      "link": "https://drive.google.com/file/d/1PQtkWbx2HiAhmgzgis5XVirsMDbDZkTC/view?usp=drive_link"
     }
   ],
   "contact": {
@@ -426,4 +440,5 @@
     "github": "https://github.com/legendop4",
     "linkedin": "https://linkedin.com/in/shivam-sharma-ds"
   }
+
 }
