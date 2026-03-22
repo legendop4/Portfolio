@@ -1,0 +1,80 @@
+.terminal-app {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(5, 5, 5, 0.95);
+    color: #00ff00;
+    font-family: var(--font-mono);
+    padding: 15px;
+    font-size: 14px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.terminal-history {
+    white-space: pre-wrap;
+    word-break: break-word;
+    margin-bottom: 5px;
+    line-height: 1.4;
+}
+
+.terminal-input-line {
+    display: flex;
+    align-items: center;
+}
+
+.terminal-prompt {
+    color: var(--accent-blue);
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+.terminal-input {
+    flex-grow: 1;
+    background: transparent;
+    border: none;
+    color: #00ff00;
+    font-family: var(--font-mono);
+    font-size: 14px;
+    outline: none;
+    caret-color: transparent; /* hide native caret */
+    text-shadow: 0 0 5px rgba(0,255,0,0.5); /* subtle glow */
+}
+
+/* Custom CSS Block Cursor */
+.terminal-input-line {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+}
+
+.terminal-input {
+    width: 100%;
+}
+
+.terminal-input:focus + .terminal-cursor-block {
+    display: inline-block;
+}
+
+/* We can either use a fake block cursor or just style the caret if supported, 
+   but since it's hard to position a fake cursor over an input text, 
+   let's just make the native caret thick and blinking */
+.terminal-input {
+    caret-color: #00ff00; /* Revert to native, maybe block style isn't purely CSS-able without complex JS */
+}
+
+/* Custom scrollbar for terminal */
+.terminal-app::-webkit-scrollbar {
+    width: 8px;
+}
+.terminal-app::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0.5);
+}
+.terminal-app::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 4px;
+}
+.terminal-app::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

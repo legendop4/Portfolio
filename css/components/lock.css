@@ -1,0 +1,63 @@
+#lock-screen {
+    background-image: url('../../assets/bg-kali.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    z-index: 90;
+    position: relative;
+    padding: 20px;
+    font-family: var(--font-mono);
+}
+
+#lock-screen::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.95));
+    z-index: -1;
+}
+
+.lock-terminal {
+    color: #fff;
+    font-size: 16px;
+    width: 100%;
+}
+
+#lock-login-text {
+    white-space: pre-wrap;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+
+#login-form {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.prompt {
+    color: #fff;
+}
+
+#password-input {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-family: var(--font-mono);
+    font-size: 16px;
+    outline: none;
+    width: 250px;
+}
+
+/* Shake Animation */
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    10%, 30%, 50%, 70%, 90% { transform: translateX(-10px); }
+    20%, 40%, 60%, 80% { transform: translateX(10px); }
+}
+
+.shake {
+    animation: shake 0.4s;
+}

@@ -1,0 +1,112 @@
+.os-window {
+    position: absolute;
+    background: var(--window-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    /* Removed overflow: hidden so resize works properly on the internal content if needed, but actually we need it for border radius. */
+    overflow: hidden;
+    min-width: 300px;
+    min-height: 200px;
+    resize: both;
+    backdrop-filter: blur(15px);
+    /* Initially hidden for spawn animation */
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 0.25s ease-out, transform 0.25s ease-out, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.os-window.spawned {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.os-window.maximized {
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: calc(100% - var(--taskbar-height)) !important;
+    border-radius: 0;
+    transform: none;
+}
+
+.os-window.minimized {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(20px) scale(0.9);
+}
+
+.os-window.active {
+    box-shadow: 0 10px 40px rgba(0, 212, 255, 0.25);
+    border-color: rgba(0, 212, 255, 0.5);
+}
+
+.window-header {
+    height: 32px;
+    background: var(--window-header);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    cursor: grab;
+    user-select: none;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.window-header:active {
+    cursor: grabbing;
+}
+
+.window-title {
+    color: #ccc;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    pointer-events: none;
+}
+
+.window-controls {
+    display: flex;
+    gap: 8px;
+}
+
+.win-btn {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: #555;
+    transition: background-color 0.2s;
+}
+
+.os-window:hover .win-btn.close { background-color: #ff5f56; }
+.os-window:hover .win-btn.minimize { background-color: #ffbd2e; }
+.os-window:hover .win-btn.maximize { background-color: #27c93f; }
+
+.window-content {
+    flex-grow: 1;
+    position: relative;
+    background: rgba(0, 0, 0, 0.6);
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Scrollbar styling */
+.window-content::-webkit-scrollbar {
+    width: 8px;
+}
+.window-content::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0.2);
+}
+.window-content::-webkit-scrollbar-thumb {
+    background: #444;
+    border-radius: 4px;
+}
+.window-content::-webkit-scrollbar-thumb:hover {
+    background: #666;
+}

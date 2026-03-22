@@ -1,0 +1,171 @@
+#desktop {
+    background-image: url('../../assets/bg-kali.png');
+    background-color: #0d1e2b;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+#desktop-bg {
+    position: absolute;
+    top: -20px; left: -20px; width: calc(100% + 40px); height: calc(100% + 40px);
+    z-index: 1;
+    background: radial-gradient(circle at center, transparent 0%, rgba(0,0,0,0.6) 100%);
+    pointer-events: none;
+    animation: breathe 15s ease-in-out infinite alternate;
+}
+
+@keyframes breathe {
+    0% { transform: scale(1); filter: brightness(1); }
+    100% { transform: scale(1.03); filter: brightness(1.1); }
+}
+
+#desktop-icons {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    z-index: var(--z-index-desktop);
+    height: calc(100% - var(--taskbar-height) - 40px);
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.desktop-icon {
+    width: 80px;
+    min-height: 90px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 10px 5px;
+    transition: background 0.2s, border 0.2s, transform 0.15s;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.desktop-icon:active {
+    transform: scale(0.95);
+}
+
+.desktop-icon:hover {
+    background: rgba(255, 255, 255, 0.05); /* very subtle back or nothing */
+    border: 1px solid transparent; /* let the icon do the talking */
+}
+
+.desktop-icon .icon-img {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 5px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    transition: transform 0.2s, filter 0.2s;
+    pointer-events: none; /* Let the container handle clicks fully */
+}
+
+.desktop-icon .icon-img svg {
+    width: 100%;
+    height: 100%;
+}
+
+.desktop-icon:hover .icon-img {
+    transform: translateY(-2px) scale(1.08); /* slight bounce and scale */
+    filter: drop-shadow(0 0 10px rgba(0, 212, 255, 0.8));
+}
+
+.desktop-icon span {
+    display: block;
+    color: #fff;
+    font-size: 13px;
+    font-family: var(--font-sans);
+    text-shadow: 1px 1px 2px #000;
+    word-wrap: break-word;
+    pointer-events: none;
+}
+
+/* Taskbar */
+#taskbar {
+    position: absolute;
+    bottom: 0; left: 0; width: 100%;
+    height: var(--taskbar-height);
+    background: var(--taskbar-bg);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid var(--border-color);
+    z-index: var(--z-index-taskbar);
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.taskbar-btn {
+    padding: 5px 15px;
+    background: transparent;
+    color: #ccc;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s, color 0.2s;
+}
+
+.taskbar-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+#start-btn {
+    font-weight: bold;
+    color: var(--accent-blue);
+    border-right: 1px solid var(--border-color);
+    margin-right: 10px;
+}
+
+#taskbar-apps {
+    flex-grow: 1;
+    display: flex;
+    gap: 5px;
+    height: 100%;
+    align-items: center;
+}
+
+.taskbar-app {
+    padding: 0 15px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid transparent;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.taskbar-app:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.taskbar-app.active {
+    background: rgba(255, 255, 255, 0.15);
+    border-bottom: 2px solid var(--accent-blue);
+}
+
+#taskbar-time {
+    color: #ddd;
+    font-size: 13px;
+    padding: 0 15px;
+    border-left: 1px solid var(--border-color);
+    font-family: var(--font-mono);
+}
